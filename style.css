@@ -1,7 +1,7 @@
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 39%);
 }
 
 .container {
@@ -91,6 +91,9 @@ jumbotron section div{
 }
 
 .button {
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
     text-align: center;
@@ -177,4 +180,57 @@ jumbotron section div{
 .courses .grid div div {
     padding: 16px 16px 24px 16px;
     line-height: 8px;
+}
+
+.exhibit {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.exhibit section {
+    text-align: left;
+}
+
+.exhibit section .main {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.exhibit section .main video {
+    width: 100%;
+}
+
+.exhibit section .main h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.exhibit section .additional {
+    width: 40%;
+    grid-auto-rows: min-content;
+}
+
+.exhibit section .additional section {
+    display: flex;
+    align-items: center;
+}
+
+.exhibit section .additional img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+footer.container {
+    justify-content: space-between;
+    font-size: 1em;
+    padding-top: 16px;
+    padding-left: 24px;
+    border-top: 1px solid hsl(0, 0%, 94%);
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin: 1rem;
 }
